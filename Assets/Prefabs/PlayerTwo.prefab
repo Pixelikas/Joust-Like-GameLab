@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8619895624378731919}
   - component: {fileID: 6070218015731616318}
   - component: {fileID: 5737765654451157688}
-  - component: {fileID: 5513521259202648075}
   m_Layer: 0
   m_Name: PlayerTwo
   m_TagString: Untagged
@@ -166,15 +165,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5513521259202648075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5406317609959159009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e6591bf031fd644cb08e9347232cbd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerOneMove
