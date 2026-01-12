@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerOneMove.cs" />
     <Compile Include="Assets\Scripts\SpawnPlayers.cs" />
+    <Compile Include="Assets\Scripts\PlayerTwoMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
