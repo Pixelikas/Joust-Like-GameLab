@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8619895624378731919}
   - component: {fileID: 6070218015731616318}
   - component: {fileID: 5737765654451157688}
+  - component: {fileID: 4297371487158599286}
   m_Layer: 0
   m_Name: PlayerTwo
   m_TagString: Untagged
@@ -107,7 +108,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0.2
+  m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 3278170874ae23746be0fbb3cf7b29c1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -165,3 +166,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4297371487158599286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406317609959159009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a67f082a498bf249ae33ad68a5b742e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerTwoMove
